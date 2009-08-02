@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+    <title>minA</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery.query-yql.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery.xhashchange.min.js"></script>
+    <script type="text/javascript" src="./mina.js"></script>
+    <script type="text/javascript" src="./mina-initializer.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/fonts/fonts-min.css">
+    <link rel="stylesheet" type="text/css" href="./mina.css">
+  </head>
+  <body>
+    <div id="header">
+      <h1><a href="mina.html">minA</a></h1>
+      <p><a href="http://www.amazon.co.jp/">Amazon.co.jp</a> search tool for minimalist.</p>
+    </div>
+
+    <div id="contents">
+      <form action="mina.html" id="searchForm">
+        <p>
+          <input type="text" name="q" size="40" id="q">
+          <input type="submit" value="Go" class="button">
+        </p>
+      </form>
+
+      <div id="message">
+        <p>読み込み完了</p>
+      </div>
+
+      <div id="result">
+        <p>この検索フォームを利用するにはブラウザの設定でJavaScriptを有効にする必要があります。</p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>Powered by <a href="http://aws.amazon.com/">Amazon Web Services</a>, <a href="http://developer.yahoo.com/yql/">YQL</a> and <a href="http://jquery.com/">jQuery</a>.</p>
+    </div>
+  </body>
+</html>
