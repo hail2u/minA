@@ -9,12 +9,12 @@ DESCRIPTION
 Amazon.co.jp search tool for minimalist.
 
 SAMPLE
-===========
+======
 
-http://hail2u.github.com/minA/
+<http://hail2u.github.com/minA/>
 
 USAGE
-===========
+=====
 
   1. Edit `tracking_id` in mina-initializer.js
   2. Upload all files
@@ -23,6 +23,7 @@ USAGE
 LICENSE
 =======
 
-Copyright (c) 2009 Kyo Nagashima <kyo@hail2u.net><br />
-This library licensed under MIT license:<br />
-http://opensource.org/licenses/mit-license.php<br />
+Copyright (c) 2009 Kyo Nagashima <kyo@hail2u.net>
+
+This software is licensed under MIT license:  
+<http://opensource.org/licenses/mit-license.php>
