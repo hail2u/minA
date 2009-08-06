@@ -54,7 +54,7 @@ body {
 }
 
 #contents #message {
-  margin-bottom: 36px;
+  margin: 0 0 36px 60px;
 }
 
 #contents #message p em {
@@ -64,11 +64,31 @@ body {
   font-style: normal;
 }
 
+#contents #toggle-view-button {
+  position: relative;
+  top: -52px;
+  width: 48px;
+  height: 21px;
+  overflow: hidden;
+}
+
+#contents #toggle-view-button img {
+  cursor: pointer;
+}
+
+#contents #toggle-view-button.list img {
+  margin-top: 0px;
+}
+
+#contents #toggle-view-button.grid img {
+  margin-top: -21px;
+}
+
 #contents #result {
   margin-bottom: 36px;
 }
 
-#contents #result .item {
+#contents #result.list .item {
   margin: 0 0 36px 184px;
   padding-bottom: 36px;
   border-bottom: 1px dotted #cccccc;
@@ -130,7 +150,7 @@ body {
   -webkit-border-bottom-left-radius: 9px;
 }
 
-#contents #result .item .title {
+#contents #result.list .item .title {
   margin-left: 208px;
   overflow: hidden;
   font-size: 138.5%;
@@ -138,20 +158,35 @@ body {
   white-space: nowrap;
 }
 
-#contents #result .item .title a {
+#contents #result.list .item .title a {
   text-decoration: none;
 }
 
-#contents #result .item .title a:hover {
+#contents #result.list .item .title a:hover {
   text-decoration: underline;
 }
 
-#contents #result .item .detail {
+#contents #result.list .item .detail {
   margin-left: 208px;
   line-height: 1.5;
 }
 
 #contents #result .item hr {
+  display: none;
+}
+
+#contents #result.grid {
+  width: 832px;
+}
+
+#contents #result.grid .item {
+  margin: 0 24px 24px 0;
+  float: left;
+  width: 184px;
+}
+
+#contents #result.grid .item .title,
+#contents #result.grid .item .detail {
   display: none;
 }
 
