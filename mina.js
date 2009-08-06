@@ -39,8 +39,9 @@ var minA = {
     $(window).hashchange(minA.doItemSearch);
 
     $("#toggle-view-button").empty().append($("<img/>").attr({
-      src: "toggle-view-button.png",
-      alt: minA.systemMessages.toggleView
+      src:   "toggle-view-button.png",
+      alt:   minA.systemMessages.toggleView,
+      title: minA.systemMessages.toggleView
     }).click(function () {
       $("#toggle-view-button, #result").toggleClass("list").toggleClass("grid");
     }));
