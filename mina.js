@@ -81,7 +81,7 @@ var minA = {
     $.each(decodeURIComponent(location.hash.replace(/^#/, "")).split(";"), function () {
       if (this.match(/^q=(.*)$/)) {
         q = RegExp.$1;
-      } else if (minA.match(/^p=([1-9]\d*)$/)) {
+      } else if (this.match(/^p=([1-9]\d*)$/)) {
         p = RegExp.$1;
       }
     });
