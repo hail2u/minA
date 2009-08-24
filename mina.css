@@ -51,6 +51,7 @@ body {
   border: 1px solid #000000;
   color: #ffffff;
   background-color: #000000;
+  cursor: pointer;
 }
 
 #contents #message {
@@ -66,7 +67,7 @@ body {
 
 #contents #toggle-view-button {
   position: relative;
-  top: -52px;
+  top: -54px;
   width: 48px;
   height: 21px;
   overflow: hidden;
@@ -100,7 +101,9 @@ body {
 #contents #result .item .image {
   margin: 0;
   padding: 11px;
-  border: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
   float: left;
   clear: left;
   width: 160px;
