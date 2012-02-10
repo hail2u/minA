@@ -94,7 +94,7 @@ var minA = {
       Operation:      "ItemSearch",
       SearchIndex:    "All",
       ResponseGroup:  "Small,Images,OfferSummary",
-      Version:        "2009-07-01",
+      Version:        "2011-08-01",
       AWSAccessKeyId: "08PWFCAAQ5TZJT30SKG2",
       AssociateTag:   minA.options.tracking_id,
       Keywords:       q,
