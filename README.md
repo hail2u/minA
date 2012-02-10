@@ -1,29 +1,24 @@
-TITLE
-=====
-
 minA
-
-DESCRIPTION
-===========
+====
 
 Amazon.co.jp search tool for minimalist.
 
-SAMPLE
-======
 
-<http://hail2u.github.com/minA/>
+SAMPLE
+------
+
+[minA](http://hail2u.github.com/minA/)
+
 
 USAGE
-=====
+-----
 
   1. Edit `tracking_id` in mina-initializer.js
   2. Upload all files
-  3. Open mina.html by browser
+  3. Open index.html by browser
+
 
 LICENSE
-=======
+-------
 
-Copyright (c) 2009 Kyo Nagashima <kyo@hail2u.net>
-
-This software is licensed under MIT license:  
-<http://opensource.org/licenses/mit-license.php>
+http://hail2u.mit-license.org/2009
