@@ -89,7 +89,7 @@ var minA = {
 
     minA.updateMessage(minA.systemMessages.searching);
 
-    var url = "http://aap.hail2u.net/?" + $.param({
+    var url = "http://rpaproxy.tdiary.org/rpaproxy/jp/?" + $.param({
       Service:        "AWSECommerceService",
       Operation:      "ItemSearch",
       SearchIndex:    "All",
