@@ -147,7 +147,7 @@ var minA = {
           // 価格
           var price = $("<p/>").addClass("price");
 
-          if (this.OfferSummary.TotalNew > 0 && this.OfferSummary.LowestNewPrice) {
+          if (this.OfferSummary && this.OfferSummary.TotalNew > 0 && this.OfferSummary.LowestNewPrice) {
             price.append(this.OfferSummary.LowestNewPrice.FormattedPrice + " ～");
           } else {
             price.append(minA.systemMessages.noPrice);
